@@ -13,6 +13,19 @@ For _fastlane_ installation instructions, see [Installing _fastlane_](https://do
 
 # Available Actions
 
+## Android
+
+### android deploy
+
+```sh
+[bundle exec] fastlane android deploy
+```
+
+Deploy a new version to the Google Play
+
+----
+
+
 ## iOS
 
 ### ios load_asc_api_key
