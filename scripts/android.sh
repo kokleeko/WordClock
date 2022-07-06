@@ -12,5 +12,5 @@ $Qt_DIR_ANDROID/bin/qmake -spec android-clang ANDROID_ABIS="x86_64" $PROJECT_DIR
 $ANDROID_NDK_ROOT/prebuilt/darwin-x86_64/bin/make qmake_all
 make -j$(nproc)
 make -j$(nproc) apk_install_target
-make -j$(nproc) apk
-open -a /Applications/Android\ Studio.app ${BUILD_DIR}/android-build
+#make -j$(nproc) apk
+#open -a /Applications/Android\ Studio.app ${BUILD_DIR}/android-build
