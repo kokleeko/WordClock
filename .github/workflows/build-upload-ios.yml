@@ -36,9 +36,6 @@ jobs:
       - name: make
         run: make
 
-      - name: make check
-        run: make check
-
       - name: Set up ruby env
         uses: ruby/setup-ruby@v1
         with:
